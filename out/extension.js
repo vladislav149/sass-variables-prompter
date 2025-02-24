@@ -89,7 +89,7 @@ function activate(context) {
     // Обновляем переменные при активации плагина
     updateSassVariables();
     // Регистрируем команду для обновления переменных вручную
-    const updateCommand = vscode.commands.registerCommand('sass-variables.update', () => {
+    const updateCommand = vscode.commands.registerCommand('sass-variables-prompter.update', () => {
         updateSassVariables();
         vscode.window.showInformationMessage('SASS variables updated!');
     });

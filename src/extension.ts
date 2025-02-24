@@ -66,7 +66,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Регистрируем команду для обновления переменных вручную
   const updateCommand = vscode.commands.registerCommand(
-    'sass-variables.update',
+    'sass-variables-prompter.update',
     () => {
       updateSassVariables()
       vscode.window.showInformationMessage('SASS variables updated!')

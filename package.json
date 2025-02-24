@@ -4,7 +4,7 @@
   "publisher": "sass-variables-prompter",
   "repository": "https://github.com/vladislav149/sass-variables-prompter",
   "description": "Плагин для подсказки sass переменных",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.97.0"
   },
