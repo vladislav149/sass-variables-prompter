@@ -1,7 +1,7 @@
 {
   "name": "sass-variables-prompter",
   "displayName": "SASS variables prompter",
-  "publisher": "vladislav149",
+  "publisher": "sass-variables-prompter",
   "repository": "https://github.com/vladislav149/sass-variables-prompter",
   "description": "Плагин для подсказки sass переменных",
   "version": "0.0.1",
